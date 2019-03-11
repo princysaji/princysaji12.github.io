@@ -1,0 +1,132 @@
+
+body, html {
+  margin: 0px;
+  width: 100%;
+  height: 100%; 
+  background: #ccc;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.nopad {
+	padding: 0px;
+}
+.resume {
+	padding: 20px;
+	height: calc(100% - 40px);
+	font: 20px arial;
+			background: #fff;
+   			max-width: 850px;
+    		margin: 0 auto;
+    		overflow: auto;
+		}
+.resume .res_address {
+	 font: 30px arial;
+	/* position: absolute;*/
+}
+.resume .res_address .res_name .address a{
+	text-decoration: none;
+	color: #0c0c0c;
+}
+.resume .res_address .res_name .address a:hover{
+	color: blue;
+}
+.resume .res_address .res_image {
+	float: left;
+	padding: 20px;
+}
+.resume .res_address .res_image img {
+	width: 300px;
+	height: 350px;
+	
+}
+.resume .res_address .res_name
+{
+    float: right;
+    padding: 20px;
+    width: 300px;
+}
+.resume .res_address .res_name span {
+	padding: 3px 0;
+    font-size: 13px;
+    width: 100%;
+    display: block;
+}
+.resume .contact {
+    background: #da5e55;
+    font : 30px;
+    padding: 5px 0px 5px 5px;
+/*    background-color: #da5e55;
+*/}
+.resume .contact:hover {
+	background: #d41a0d;
+}
+.res_objective
+{
+	float: left;
+	width: 100%;
+}
+
+/*project detail*/
+ .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  
+}
+ .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/*personnel and summery*/
+.pers_sum				
+{
+	width: 100%;
+	float: left;
+}
+.pers_sum .summery,
+.pers_sum .personel
+{
+	width: calc(50% - 10px);
+	float: left;
+	padding: 5px;
+
+}
+
+/*login*/
+.login_form
+{
+	    margin: 0 auto;
+    top: 35%;
+    width: 359px;
+    position: relative;
+    padding: 30px;
+    background: #fff;
+}
+
+.login_form input {
+	width: 100%;
+    height: 34px;
+}
+
+.login_form table {
+	width: 100%;
+}
+
+.login_form td {
+	padding: 5px 0
+}
+
+.login_form .button {
+	height: 28px;
+    width: 120px;
+    float: right;
+}
